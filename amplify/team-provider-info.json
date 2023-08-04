@@ -23,6 +23,11 @@
       "StackName": "amplify-amplifyhomes-dev-14317",
       "StackId": "arn:aws:cloudformation:ap-northeast-1:175654686797:stack/amplify-amplifyhomes-dev-14317/48f6de70-3268-11ee-9210-0ab993b4ea61",
       "AmplifyAppId": "d3bj1grtav6lc0"
+    },
+    "categories": {
+      "auth": {
+        "amplifyhomes": {}
+      }
     }
   }
 }

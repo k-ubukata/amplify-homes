@@ -1,5 +1,7 @@
 import "./App.css";
 import { NavBar, NewsItemCollection } from "./ui-components";
+import { withAuthenticator } from '@aws-amplify/ui-react';
+import '@aws-amplify/ui-react/styles.css';
 
 function App() {
   return (
@@ -9,5 +11,4 @@ function App() {
     </div>
   );
 }
-
-export default App;
+export default withAuthenticator(App);
