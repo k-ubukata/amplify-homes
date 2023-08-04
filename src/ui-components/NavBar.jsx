@@ -98,10 +98,11 @@ export default function NavBar(props) {
           width="unset"
           height="unset"
           shrink="0"
+          backgroundColor="rgba(253,230,230,1)"
           size="default"
           isDisabled={false}
           variation="default"
-          children="ログアウト"
+          children="Logout"
           onClick={() => {
             buttonOnClick();
           }}
